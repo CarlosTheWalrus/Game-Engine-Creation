@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	const float pi{ 3.14159 };
+	float area{ 0 };
+	float radius{25};
+
+	area = pi * radius * radius;
+
+	cout << "The area of a circle with a radious of " << radius << " is " << area << endl;
+
+
+}
