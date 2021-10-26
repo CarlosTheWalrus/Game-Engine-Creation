@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    typedef int Health;
+
+    typedef enum Weapons
+    {
+        Sword,
+        Dagger,
+        Mace,
+        Twin_Swords,
+        Samurai,
+        Wizard_Staff,
+        Fire_Potion,
+        Ice_Blade,
+        Small_Knife
+    };
+
+    Health HP{ 13000 };
+    Weapons current_weapon { Samurai };
+
+    cout << "My Current Health is: " << HP << endl;
+    cout << "And the ID of my weapon of choice is: " << current_weapon << endl;
+
+};
