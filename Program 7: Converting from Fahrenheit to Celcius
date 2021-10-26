@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float celcius{ 0 };
+	float fahrenheit{ 95.0 };
+	float conversion{ 0 };
+
+	conversion = (fahrenheit - 32) * 0.5556;
+	celcius = conversion;
+
+	cout << fahrenheit << "F is equal to " << celcius << "C." << endl;
+}
+
